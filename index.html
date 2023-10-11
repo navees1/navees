@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog do navees1</title>
+    <style>
+        .marquee {
+            white-space: nowrap;
+            overflow: hidden;
+            position: relative;
+            font-size: 1rem;
+        }
+
+        .marquee span {
+            display: inline-block;
+            padding-right: 100%; 
+            animation: marquee 10s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="marquee">
+        <span>Blog do navees1 em construção</span>
+    </div>
+</body>
+</html>
